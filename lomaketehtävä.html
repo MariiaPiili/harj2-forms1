@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomaketehtävä</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+           <legend>Contact information:</legend>
+           <table>
+              <tr>
+                 <td><label>First name:</label></td>
+                 <td><input type="text" id="fname" name="fname"></td>
+                 <td colspan="2"><label>Preferred contsct method:</label></td>
+              </tr>
+              <tr>
+                 <td><label>Last name:</label></td>
+                 <td><input type="text" id="lname" name="lname"></td>
+                 <td><input type="checkbox" value="email"></td>
+                 <td><label>Email</label></td>
+              </tr>
+              <tr>
+                 <td><label>Email:</label></td>
+                 <td><input type="email" id="email" name="email"></td>
+                 <td><input type="checkbox" value="tel"></td>
+                 <td><label>Telephone</label></td>
+              </tr>
+              <tr>
+                 <td><label>Telephone:</label></td>
+                 <td><input type="tel" id="phone" name="phone"></td>
+              </tr>
+              </tr>
+           </table>
+        </fieldset>
+        <fieldset>
+           <legend>Feedback:</legend>
+           <table>
+              <tr>
+                 <td><label>Message subject:</label></td>
+                 <td><input type="text"></td>
+              </tr>
+              <tr>
+                 <td colspan="2">
+                    <textarea cols="50" rows="10"></textarea>
+                 </td>
+              </tr>
+              <tr>
+                 <td><label>Attach a file:</label></td>
+                 <td><input type="file"></td>
+              </tr>
+              <tr>
+                 <td><input type="submit" value="Send"></td>
+              </tr>
+           </table>
+        </fieldset>
+     </form>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Henkilötiedot</legend>
+            <table>
+                <tr>
+                    <th colspan="2">Anna henkilötietosi</th>
+                    <th colspan="2">Anna ajoneuvon tiedor</th>
+                </tr>
+                <tr>
+                    <td><label>Etunimi</label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                    <td><input type="checkbox" value="bike"></td>
+                    <td><label>Polkupyörä</label></td>
+                    
+                </tr>
+                <tr>
+                    <td><label>Sukunimi</label></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                    <td><input type="checkbox" value="car"></td>
+                    <td><label>Auto</label></td>
+                </tr>
+                <tr>
+                    <td><label>Selain</label></td>
+                    <td>
+                        <input list="browsers">
+                        <datalist id="browsers">
+                            <options value="IE"></options>
+                            <options value="Edge"></options>
+                            <options value="Firefox"></options>
+                            <options value="Chrome"></options>
+                        </datalist>
+                    </td>
+                    <td><input type="checkbox" value="boat"></td>
+                    <td><label>Vene</label></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Kerro itsestäsi</legend>
+            <textarea cols="80" rows="10"></textarea>
+            <table>
+                <tr>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Lähetä"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>
